@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Meta Tags - SEO & Accessibility -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Michel de Souza — Full-Stack Software Engineer in Newark, NJ. Building production-grade apps with TypeScript, React, Node.js & SQL. Trilingual (EN/ES/PT), security-minded, Harvard CS50x certified. Available for hire." />
+<meta name="keywords" content="Michel de Souza, Full-Stack Software Engineer, Full-Stack Developer Newark NJ, TypeScript Developer New Jersey, React Developer NJ, Node.js Engineer Newark, Software Engineer for hire Newark, Harvard CS50x, Trilingual Software Engineer, Web Developer Newark New Jersey" />
+<meta name="author" content="Michel de Souza" />
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+<meta name="googlebot" content="index, follow" />
+<meta name="geo.region" content="US-NJ" />
+<meta name="geo.placename" content="Newark, New Jersey" />
+<meta name="theme-color" content="#0f1b2d" />
+
+<!-- Open Graph Tags -->
+<meta property="og:type" content="profile" />
+<meta property="og:url" content="https://njfw50.github.io/" />
+<meta property="og:title" content="Michel de Souza | Full-Stack Software Engineer — Newark, NJ" />
+<meta property="og:description" content="Trilingual Full-Stack Software Engineer specializing in TypeScript, React, and Node.js. Harvard CS50x certified. Available for hire in Newark, NJ." />
+<meta property="og:image" content="https://njfw50.github.io/photo.jpg" />
+<meta property="og:image:width" content="400" />
+<meta property="og:image:height" content="400" />
+<meta property="og:site_name" content="Michel de Souza — Full-Stack Software Engineer" />
+<meta property="og:locale" content="en_US" />
+<meta property="profile:first_name" content="Michel" />
+<meta property="profile:last_name" content="de Souza" />
+
+<!-- Twitter Card Tags -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Michel de Souza | Full-Stack Software Engineer — Newark, NJ" />
+<meta name="twitter:description" content="Trilingual software engineer specializing in TypeScript, React, and Node.js. Available for hire in Newark, NJ." />
+<meta name="twitter:image" content="https://njfw50.github.io/photo.jpg" />
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://njfw50.github.io/" />
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="styles.css" />
+
+<!-- H1 role subtitle sizing fix -->
+<style>
+.hero-text h1 .h1-role {
+  display: block;
+  font-size: 0.32em;
+  font-weight: 600;
+  color: #1abc9c;
+  letter-spacing: 0.01em;
+  margin-top: 0.4rem;
+  line-height: 1.3;
+}
+@media (max-width: 768px) {
+  .hero-text h1 .h1-role {
+    font-size: 0.4em;
+  }
+}
+</style>
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' font-family='Syne' font-weight='800' fill='%231abc9c'>M</text></svg>" />
+
+<title>Michel de Souza | Full-Stack Software Engineer in Newark, NJ — TypeScript, React, Node.js</title>
+
+<!-- Structured Data: Person + ProfessionalService -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Michel de Souza",
+  "url": "https://njfw50.github.io/",
+  "image": "https://njfw50.github.io/photo.jpg",
+  "jobTitle": "Full-Stack Software Engineer",
+  "description": "Trilingual Full-Stack Software Engineer based in Newark, NJ, specializing in TypeScript, React, Node.js, and clean, security-minded architecture.",
+  "email": "mailto:michelstravelus@gmail.com",
+  "telephone": "+1-862-350-1161",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Newark",
+    "addressRegion": "NJ",
+    "addressCountry": "US"
+  },
+  "sameAs": [
+    "https://github.com/njfw50",
+    "https://linkedin.com/in/njfw23"
+  ],
+  "knowsLanguage": ["English", "Spanish", "Portuguese"],
+  "knowsAbout": [
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "SQL",
+    "Software Architecture",
+    "SOLID Principles",
+    "Cybersecurity Fundamentals",
+    "Full-Stack Web Development"
+  ],
+  "alumniOf": {
+    "@type": "EducationalOrganization",
+    "name": "Harvard University (edX) — CS50x & CS50 Cybersecurity"
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Michel's Travel"
+  }
+}
+</script>
+</head>
+<body>
+<!-- Skip to Content Link -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!-- Navigation -->
+<nav role="navigation" aria-label="Main navigation">
+<div class="nav-name" aria-label="Michel de Souza">MS</div>
+<ul class="nav-links">
+<li><a href="#about" aria-label="Navigate to About section">About</a></li>
+<li><a href="#experience" aria-label="Navigate to Experience section">Experience</a></li>
+<li><a href="#projects" aria-label="Navigate to Projects section">Projects</a></li>
+<li><a href="#education" aria-label="Navigate to Education section">Education</a></li>
+<li><a href="#skills" aria-label="Navigate to Skills section">Skills</a></li>
+<li><a href="#contact" aria-label="Navigate to Contact section">Contact</a></li>
+</ul>
+</nav>
+
+<!-- Main Content -->
+<main id="main-content">
+<!-- Hero Section -->
+<section class="hero" aria-label="Hero section">
+<div class="hero-inner">
+<img src="photo.jpg" alt="Michel de Souza, Full-Stack Software Engineer based in Newark, New Jersey" class="hero-photo" loading="eager" width="180" height="180" />
+<div class="hero-text">
+<div class="hero-eyebrow">Available for hire · Newark, NJ</div>
+<h1>Michel <span>de Souza</span><span class="h1-role">Full-Stack Software Engineer</span></h1>
+<p class="hero-tagline">Trilingual. Security-minded. Full-Stack Builder in TypeScript, React &amp; Node.js — based in Newark, NJ.</p>
+<div class="hero-actions">
+<a href="#contact" class="btn btn-primary" aria-label="Get in touch with Michel">Get in Touch</a>
+<a href="#projects" class="btn btn-outline" aria-label="View Michel's projects">See My Work</a>
+</div>
+</div>
+</div>
+<div class="scroll-hint" aria-hidden="true"><span><div class="scroll-arrow"></div>scroll</span></div>
+</section>
+
+<div class="section-divider" aria-hidden="true"></div>
+
+<!-- About Section -->
+<section id="about" aria-label="About Michel">
+<div class="section-label">Who I am</div>
+<h2 class="section-title">About Michel de Souza — Full-Stack Software Engineer in Newark, NJ</h2>
+<div class="about-grid">
+<p class="about-text">Software Engineer in career transition, grounded in Harvard's CS50x rigor and a philosophy of defensive architecture and high-quality engineering processes. After a solid trajectory managing real-time service systems as a Concierge and Travel Agent, I transitioned into full-stack development — building production-grade applications with TypeScript, Node.js, React, and SQL. Trilingual (English, Spanish, Portuguese), operations-minded, and driven by the challenge of turning pure logic into efficient, real-world solutions.</p>
+<div class="about-stats">
+<div class="stat-card" tabindex="0">
+<div class="stat-number">3</div>
+<div class="stat-desc">Languages spoken fluently</div>
+</div>
+<div class="stat-card" tabindex="0">
+<div class="stat-number">10+</div>
+<div class="stat-desc">Years in operations & client services</div>
+</div>
+<div class="stat-card" tabindex="0">
+<div class="stat-number">2x</div>
+<div class="stat-desc">Harvard CS certificates (edX)</div>
+</div>
+</div>
+</div>
+</section>
+
+<div class="section-divider" aria-hidden="true"></div>
+
+<!-- Experience Section -->
+<section id="experience" aria-label="Work experience">
+<div class="section-label">Work History</div>
+<h2 class="section-title">Experience</h2>
+
+<!-- Category Filter Dropdown -->
+<div class="exp-filter-container">
+<label for="category-filter" class="filter-label">Filter by category:</label>
+<select id="category-filter" class="category-filter" aria-label="Filter experience by category">
+<option value="all">All Experience</option>
+<option value="software-development">💻 Software Development & Tech</option>
+<option value="travel-hospitality">🏨 Travel & Hospitality Services</option>
+<option value="operations">🏢 Operations & Client Services</option>
+<option value="transportation">🚗 Transportation & Mobility</option>
+</select>
+</div>
+
+<div class="exp-list" id="experience-list">
+<!-- Software Development & Tech Category -->
+<div class="exp-category" data-category="software-development">
+<h3 class="exp-category-title">💻 Software Development & Tech</h3>
+<article class="exp-card" data-skills="typescript,react,nodejs,fullstack,architecture">
+<div class="exp-header">
+<h4 class="exp-title">Travel Agent & Founder</h4>
+<span class="exp-period" aria-label="Employment period">Jan 2019 – Present</span>
+</div>
+<div class="exp-company">Michel's Travel · Newark, NJ</div>
+<ul class="exp-bullets">
+<li>Founded and operated an independent travel agency serving Spanish and Portuguese-speaking clients in the Newark metro area.</li>
+<li>Built Michel's Travel — a full-stack flight booking platform using React, TypeScript, Node.js, Drizzle ORM, and Tailwind CSS.</li>
+<li>Implemented engineering DOGMAs: No Silent Failures, Zod input validation, and External Service Isolation via SOLID principles.</li>
+<li>Managed end-to-end client relationships, itinerary planning, and real-time logistics coordination.</li>
+</ul>
+</article>
+</div>
+
+<!-- Travel & Hospitality Category -->
+<div class="exp-category" data-category="travel-hospitality">
+<h3 class="exp-category-title">🏨 Travel & Hospitality Services</h3>
+<article class="exp-card" data-skills="hospitality,customer-service,multilingual,luxury-service">
+<div class="exp-header">
+<h4 class="exp-title">Front Desk Associate & Hospitality Coordinator</h4>
+<span class="exp-period" aria-label="Employment period">2007 – 2008</span>
+</div>
+<div class="exp-company">Hotel Caesar Park · Rio de Janeiro, Brazil</div>
+<ul class="exp-bullets">
+<li>Delivered premium front desk services at a luxury 5-star hotel, managing guest inquiries, reservations, and special requests.</li>
+<li>Coordinated with RoyalCoop, a specialized hospitality transport company serving Rio's premier hotels, ensuring seamless guest logistics.</li>
+<li>Managed multilingual guest communications (Portuguese, English, Spanish) in a high-volume, fast-paced environment.</li>
+<li>Maintained exceptional service standards and guest satisfaction metrics across diverse international clientele.</li>
+</ul>
+</article>
+<article class="exp-card" data-skills="hospitality,quality-assurance,team-leadership,customer-service">
+<div class="exp-header">
+<h4 class="exp-title">Quality & Service Supervisor</h4>
+<span class="exp-period" aria-label="Employment period">2009</span>
+</div>
+<div class="exp-company">Rei do Mate · Rio de Janeiro International Airport, Brazil</div>
+<ul class="exp-bullets">
+<li>Promoted to Quality & Service Supervisor at the airport's premium hospitality venue during a high-profile operational period.</li>
+<li>Oversaw service quality standards, staff training, and customer experience across all operational shifts.</li>
+<li>Managed incident response and operational continuity during critical periods.</li>
+<li>Built foundational expertise in hospitality management, team leadership, and operational excellence under pressure.</li>
+</ul>
+</article>
+<article class="exp-card" data-skills="travel-planning,customer-service,multilingual,itinerary-management">
+<div class="exp-header">
+<h4 class="exp-title">Travel Agent</h4>
+<span class="exp-period" aria-label="Employment period">Jun 2015 – Present</span>
+</div>
+<div class="exp-company">Costamar Travel Group · United States</div>
+<ul class="exp-bullets">
+<li>Provided full-service travel planning and booking for a diverse, multilingual client base.</li>
+<li>Specialized in Latin American routes, cruise packages, and international itineraries.</li>
+</ul>
+</article>
+<article class="exp-card" data-skills="hospitality,customer-service,team-coordination,international-experience">
+<div class="exp-header">
+<h4 class="exp-title">Crew Steward</h4>
+<span class="exp-period" aria-label="Employment period">Jan 2013 – Oct 2013</span>
+</div>
+<div class="exp-company">Costa Crociere · International</div>
+<ul class="exp-bullets">
+<li>Delivered premium hospitality service aboard international cruise ships, working within a multicultural crew environment.</li>
+</ul>
+</article>
+</div>
+
+<!-- Operations & Client Services Category -->
+<div class="exp-category" data-category="operations">
+<h3 class="exp-category-title">🏢 Operations & Client Services</h3>
+<article class="exp-card" data-skills="operations,security,client-relations,facilities-management,problem-solving">
+<div class="exp-header">
+<h4 class="exp-title">Concierge & Front Desk Associate</h4>
+<span class="exp-period" aria-label="Employment period">Apr 2023 – Jan 2026</span>
+</div>
+<div class="exp-company">Citybay Builders & Realtors · Newark, NJ</div>
+<ul class="exp-bullets">
+<li>Served as primary point of contact for all client inquiries, ensuring prompt and professional resolution across multiple priorities.</li>
+<li>Monitored building security through CCTV surveillance systems, identifying and escalating incidents proactively.</li>
+<li>Coordinated with service vendors for timely maintenance repairs and facilities upkeep.</li>
+<li>Managed full package logistics cycle — receiving, logging, storing, and notifying residents using service management software.</li>
+<li>Translated client feedback into actionable workflow improvements across cross-functional teams.</li>
+</ul>
+</article>
+<article class="exp-card" data-skills="customer-service,multilingual,administrative,client-communication">
+<div class="exp-header">
+<h4 class="exp-title">Bilingual Receptionist</h4>
+<span class="exp-period" aria-label="Employment period">Nov 2013 – Present</span>
+</div>
+<div class="exp-company">Kiss · New Jersey</div>
+<ul class="exp-bullets">
+<li>Delivered bilingual (English/Spanish) front desk support, managing scheduling, client intake, and communications.</li>
+</ul>
+</article>
+<article class="exp-card" data-skills="quality-assurance,team-training,operations,customer-service">
+<div class="exp-header">
+<h4 class="exp-title">Quality & Service Technician</h4>
+<span class="exp-period" aria-label="Employment period">2008 – 2009</span>
+</div>
+<div class="exp-company">McDonald's RB1 · Rio de Janeiro, Brazil</div>
+<ul class="exp-bullets">
+<li>Promoted to Quality & Service Technician within first formal contract role after completing military service.</li>
+<li>Trained and supported front-line staff in fast-paced, customer-facing operations.</li>
+<li>Built foundational skills in hospitality, teamwork, and operational excellence.</li>
+</ul>
+</article>
+</div>
+
+<!-- Transportation & Mobility Category -->
+<div class="exp-category" data-category="transportation">
+<h3 class="exp-category-title">🚗 Transportation & Mobility</h3>
+<article class="exp-card" data-skills="customer-service,reliability,multilingual,safety">
+<div class="exp-header">
+<h4 class="exp-title">Driver</h4>
+<span class="exp-period" aria-label="Employment period">Jan 2019 – May 2023</span>
+</div>
+<div class="exp-company">Lyft · New Jersey</div>
+<ul class="exp-bullets">
+<li>Maintained a top-rated driver profile through consistent service quality and multilingual communication.</li>
+</ul>
+</article>
+</div>
+</div>
+</section>
+
+<div class="section-divider" aria-hidden="true"></div>
+
+<!-- Projects Section -->
+<section id="projects" aria-label="Projects and work samples">
+<div class="section-label">What I've built</div>
+<h2 class="section-title">Projects</h2>
+<div class="projects-grid">
+<article class="project-card">
+<h3 class="project-name">🛫 Michel's Travel Platform</h3>
+<p class="project-desc">Full-stack flight booking platform built with React, TypeScript, Node.js, Drizzle ORM, and Tailwind CSS. Follows strict engineering principles: explicit error handling, Zod schema validation, and SOLID architecture with Dependency Inversion.</p>
+<div class="tech-tags">
+<span class="tech-tag">TypeScript</span>
+<span class="tech-tag">React</span>
+<span class="tech-tag">Node.js</span>
+<span class="tech-tag">Drizzle ORM</span>
+<span class="tech-tag">Zod</span>
+<span class="tech-tag">Tailwind CSS</span>
+<span class="tech-tag">SQL</span>
+</div>
+</article>
+<article class="project-card">
+<div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem; flex-wrap: wrap;">
+<h3 class="project-name" style="margin-bottom: 0;">⚙️ Canonical Engineering Laws (DOGMAs)</h3>
+<span class="project-status" aria-label="Project status">In Development</span>
+</div>
+<p class="project-desc">A personal framework of engineering principles — called DOGMAs — developed through hands-on experience building production systems. These canonical laws enforce predictable, maintainable, and secure software at every layer of development.</p>
+<div class="dogma-principles">
+<div class="dogma-item"><strong>DOGMA 1: Explicit Over Implicit</strong> — Every behavior must be intentional and visible. No magic, no hidden side effects.</div>
+<div class="dogma-item"><strong>DOGMA 2: No Silent Failures</strong> — All errors must be caught, logged, and handled explicitly across every layer.</div>
+<div class="dogma-item"><strong>DOGMA 3: Validate ALL Inputs with Zod</strong> — Data integrity is enforced at every boundary through strict schema validation.</div>
+<div class="dogma-item"><strong>DOGMA 4: External Service Isolation</strong> — Third-party dependencies are wrapped in Adapters using Dependency Inversion, keeping the core system decoupled and testable.</div>
+</div>
+<div class="tech-tags">
+<span class="tech-tag">Software Architecture</span>
+<span class="tech-tag">SOLID Principles</span>
+<span class="tech-tag">TypeScript</span>
+<span class="tech-tag">Zod</span>
+<span class="tech-tag">Clean Code</span>
+</div>
+</article>
+</div>
+</section>
+
+<div class="section-divider" aria-hidden="true"></div>
+
+<!-- Education Section -->
+<section id="education" aria-label="Education and certifications">
+<div class="section-label">Credentials</div>
+<h2 class="section-title">Education</h2>
+<div class="edu-grid">
+<article class="edu-card">
+<span class="edu-badge">Harvard · edX · 2024</span>
+<h3 class="edu-degree">CS50x: Introduction to Computer Science</h3>
+<p class="edu-school">Harvard University (edX)</p>
+</article>
+<article class="edu-card">
+<span class="edu-badge">Harvard · edX · 2025</span>
+<h3 class="edu-degree">CS50 Cybersecurity</h3>
+<p class="edu-school">Harvard University (edX)</p>
+</article>
+<article class="edu-card">
+<span class="edu-badge">Coursera · 2024</span>
+<h3 class="edu-degree">English Intermediate B1.2</h3>
+<p class="edu-school">Coursera</p>
+</article>
+<article class="edu-card">
+<span class="edu-badge">Malta · 2013</span>
+<h3 class="edu-degree">English B2 – Applied Linguistics</h3>
+<p class="edu-school">English Language Academy, Malta</p>
+</article>
+</div>
+</section>
+
+<div class="section-divider" aria-hidden="true"></div>
+
+<!-- Skills Section -->
+<section id="skills" aria-label="Skills and expertise">
+<div class="section-label">What I bring</div>
+<h2 class="section-title">Skills</h2>
+<div class="skills-grid">
+<div class="skill-card">
+<div class="skill-cat">Languages</div>
+<div class="skill-tags">
+<span class="skill-tag">English (Fluent)</span>
+<span class="skill-tag">Spanish (Fluent)</span>
+<span class="skill-tag">Portuguese (Native)</span>
+</div>
+</div>
+<div class="skill-card">
+<div class="skill-cat">Dev Languages</div>
+<div class="skill-tags">
+<span class="skill-tag">TypeScript</span>
+<span class="skill-tag">JavaScript</span>
+<span class="skill-tag">C</span>
+<span class="skill-tag">Python</span>
+<span class="skill-tag">SQL</span>
+</div>
+</div>
+<div class="skill-card">
+<div class="skill-cat">Frameworks</div>
+<div class="skill-tags">
+<span class="skill-tag">React</span>
+<span class="skill-tag">Node.js</span>
+<span class="skill-tag">Express</span>
+<span class="skill-tag">Drizzle ORM</span>
+<span class="skill-tag">Zod</span>
+<span class="skill-tag">Tailwind CSS</span>
+</div>
+</div>
+<div class="skill-card">
+<div class="skill-cat">Engineering</div>
+<div class="skill-tags">
+<span class="skill-tag">Clean Code</span>
+<span class="skill-tag">SOLID Principles</span>
+<span class="skill-tag">Data Structures</span>
+<span class="skill-tag">Algorithms</span>
+<span class="skill-tag">Git/GitHub</span>
+</div>
+</div>
+<div class="skill-card">
+<div class="skill-cat">Security & Ops</div>
+<div class="skill-tags">
+<span class="skill-tag">CCTV & Surveillance</span>
+<span class="skill-tag">Incident Reporting</span>
+<span class="skill-tag">Access Control</span>
+<span class="skill-tag">Cybersecurity Fundamentals</span>
+</div>
+</div>
+<div class="skill-card">
+<div class="skill-cat">Soft Skills</div>
+<div class="skill-tags">
+<span class="skill-tag">Client Relations</span>
+<span class="skill-tag">Multilingual Communication</span>
+<span class="skill-tag">Problem Solving</span>
+<span class="skill-tag">Facilities Coordination</span>
+</div>
+</div>
+</div>
+</section>
+
+<div class="section-divider" aria-hidden="true"></div>
+
+<!-- Contact Section -->
+<section id="contact" aria-label="Contact information">
+<div class="contact-card">
+<div class="section-label">Get in touch</div>
+<h2 class="section-title">Contact</h2>
+<p class="contact-text">I'm always interested in hearing about new projects and opportunities. Feel free to reach out via email or connect on GitHub and LinkedIn.</p>
+<div class="contact-links">
+<a href="mailto:michelstravelus@gmail.com" class="contact-link" aria-label="Send email to Michel">
+<span class="contact-icon">✉️</span>
+<span>Email</span>
+</a>
+<a href="https://github.com/njfw50" class="contact-link" aria-label="Visit Michel's GitHub profile">
+<span class="contact-icon">🔗</span>
+<span>GitHub</span>
+</a>
+<a href="https://linkedin.com/in/njfw23" class="contact-link" aria-label="Visit Michel's LinkedIn profile">
+<span class="contact-icon">💼</span>
+<span>LinkedIn</span>
+</a>
+</div>
+</div>
+</section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+<p>&copy; 2026 Michel de Souza. All rights reserved.</p>
+</footer>
+
+<!-- Theme Toggle Script -->
+<script src="script.js"></script>
+</body>
+</html>
