@@ -326,14 +326,15 @@ class ExperienceFilter {
       const categoryData = category.getAttribute('data-category');
       
       if (selectedCategory === 'all' || categoryData === selectedCategory) {
-        category.classList.remove('hidden');
+        category.style.display = 'block';
         // Trigger animation
-        category.style.animation = 'none';
+        category.style.opacity = '0';
         setTimeout(() => {
-          category.style.animation = '';
+          category.style.transition = 'opacity 0.4s ease';
+          category.style.opacity = '1';
         }, 10);
       } else {
-        category.classList.add('hidden');
+        category.style.display = 'none';
       }
     });
   }
