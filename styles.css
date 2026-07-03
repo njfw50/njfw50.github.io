@@ -18,6 +18,7 @@
   --border-color: rgba(46, 134, 193, 0.15);
   --bg-primary: var(--navy);
   --bg-secondary: var(--card);
+  --mono: 'JetBrains Mono', monospace;
   
   /* Light Mode */
   --light-navy: #f8f9fa;
@@ -69,6 +70,127 @@ body {
   line-height: 1.7;
   transition: var(--transition);
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.exp-card.highlight {
+  border-color: var(--teal);
+  background: rgba(26, 188, 156, 0.03);
+}
+
+.exp-card.highlight::before {
+  width: 5px;
+}
+
+.exp-bullets li strong {
+  color: var(--teal);
+  font-weight: 600;
+}
+
+.section-label {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+}
+
+.stat-number {
+  font-family: 'Syne', sans-serif;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 2rem;
+  transition: var(--transition);
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.project-tech span {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--teal);
+  background: rgba(26, 188, 156, 0.1);
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3rem;
+}
+
+.skill-category h3 {
+  font-family: 'Syne', sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: var(--accent);
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.skill-tags span {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.2rem;
+}
+
+.contact-links {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.contact-item {
+  color: var(--text-primary);
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 2px solid var(--teal);
+  padding-bottom: 0.2rem;
+  transition: var(--transition);
+}
+
+.contact-item:hover {
+  color: var(--teal);
+  border-color: var(--accent);
+}
+
+footer {
+  padding: 4rem 2rem;
+  text-align: center;
+  border-top: 1px solid var(--border-color);
+  margin-top: 4rem;
+}
+
+footer p {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--muted);
 }
 
 /* Skip to Content Link (Accessibility) */
