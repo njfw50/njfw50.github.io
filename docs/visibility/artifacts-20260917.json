@@ -1,0 +1,15 @@
+{
+  "normative_class": "C",
+  "algorithm": "SHA-256",
+  "date": "2026-09-17",
+  "scope": "UTF-8 contents of release files; manifest excluded to avoid self-reference",
+  "files": {
+    "canonical.css": "a131b006d12a4c354729e6e4c0d083d6342d7abfacbcc5efe289027cbced26ed",
+    "codigo-canonico-engenharia-ia/index.html": "c0fc4ac5550565c7714d89786145def806f84f67019906b3953476bce17dc74d",
+    "canonical-engineering-ai/index.html": "1b510018d9ec75094b671dac332cc17f64664936ad381fdc96baca5a928a6a64",
+    "sitemap_main.xml": "2321d3294b8cdf3e02f1d35242a4e38dcf74f1ad33c58d46271548a53e227058",
+    "index.html": "2d5227550e75c07c5562219a627f87e15c2c4006dc8f884e1758d8b74d548b1c",
+    "docs/visibility/ADA-20260917-001.md": "8284c45ab5cdec836bd6f4de6e58cd1095b4176bf717d54225c0d0107d880fed",
+    "canonical-dependencies.json": "8e7b2735b4757dfb1648c6eabab82fecb9d7a398984bfd2edc744748a37e314c"
+  }
+}
