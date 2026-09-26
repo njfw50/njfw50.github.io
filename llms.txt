@@ -1,0 +1,32 @@
+# Canonical Protocol of Engineering & AI
+
+> Public discovery index for the Canonical Protocol of Engineering & AI (Código Canônico de Engenharia & IA), created by Michel Silva de Souza.
+
+## Project
+- English introduction: https://njfw50.github.io/canonical-engineering-ai/
+- Portuguese introduction: https://njfw50.github.io/codigo-canonico-engenharia-ia/
+- Authoritative repository: https://github.com/njfw50/codigo-canonico-engenharia-ai
+- DOI: https://doi.org/10.5281/zenodo.19804968
+- Citation metadata: https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/CITATION.cff
+- License: Apache License 2.0
+
+## What the project addresses
+The Canonical Protocol is a software-governance framework for AI-assisted engineering. It focuses on architectural discipline, explicit change procedures, separation of layers, justified complexity, cognitive sovereignty, AI-agent coordination, evaluation-driven development, code provenance and traceability.
+
+Relevant discovery terms include:
+software governance; AI-assisted software engineering; AI coding governance; agentic coding guardrails; software architecture governance; cognitive debt; cognitive sovereignty; code provenance; evaluation-driven development; AI agents; architectural integrity; software engineering guardrails; vibe coding.
+
+## Start here
+- Manifesto and index: https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/README.md
+- Canonical laws: https://github.com/njfw50/codigo-canonico-engenharia-ai/tree/main/laws
+- Whitepaper: https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/WHITEPAPER.md
+- Contribution procedure: https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/CONTRIBUTING.md
+- Decision record template: https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/template/ADA_template.md
+
+## Authorship
+Michel Silva de Souza
+Profile: https://njfw50.github.io/
+LinkedIn: https://www.linkedin.com/in/njfw23/
+ORCID: https://orcid.org/0009-0006-5209-4477
+
+The normative source remains the GitHub repository. Public introduction pages summarize and link to that source; they do not replace it.
