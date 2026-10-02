@@ -1,701 +1,1148 @@
 {
   "normative_class": "C",
-  "scope": "Project introductions and modified portfolio page; includes existing direct HTML dependencies",
-  "date": "2026-09-17",
-  "canonical_source_revision": "48546d67e4df68dc86d36541e481b6aaa15d7f83",
-  "website_base_revision": "a4812c181b78b9b19e3eaea3d86fe209920eca4c",
-  "proposal": "https://github.com/njfw50/codigo-canonico-engenharia-ai/issues/2",
-  "reference_policy": "Original source paths checked against recorded repository tree; local paths and anchors checked before publication. Outbound URLs are explicit contracts, not an assertion of perpetual remote availability.",
+  "date": "2026-10-01",
+  "proposal": "https://github.com/njfw50/codigo-canonico-engenharia-ai/issues/7",
+  "scope": "Current public presentation, educational example and direct references. Supersedes the September 17 live inventory; historical snapshots remain in git. External URLs are explicit contracts, not guarantees of perpetual availability.",
   "references": [
     {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://njfw50.github.io/codigo-canonico-engenharia-ia/",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://njfw50.github.io/codigo-canonico-engenharia-ia/",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://njfw50.github.io/canonical-engineering-ai/",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://njfw50.github.io/codigo-canonico-engenharia-ia/",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "/canonical.css",
-      "resolution": "GitHub Pages root path"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "#main",
-      "resolution": "local HTML id"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "/",
-      "resolution": "GitHub Pages root path"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "#projeto",
-      "resolution": "local HTML id"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "#leitura",
-      "resolution": "local HTML id"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "#canones",
-      "resolution": "local HTML id"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "consumer": "canonical-engineering-ai/index.html",
       "provider": "#autoria",
-      "resolution": "local HTML id"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "/codigo-canonico-engenharia-ia/",
-      "resolution": "GitHub Pages root path"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "/canonical-engineering-ai/",
-      "resolution": "GitHub Pages root path"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "#autoria",
-      "resolution": "local HTML id"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "#leitura",
-      "resolution": "local HTML id"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law03_change_procedure.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law03_change_procedure.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law09_no_ornamental_patterns.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law09_no_ornamental_patterns.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law18_cognitive_sovereignty.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law18_cognitive_sovereignty.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/README.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/tree/main/laws/",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/template/ADA_template.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/CONTRIBUTING.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law10_layer_separation.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law10_layer_separation.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law00_precedence.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law01_authority.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law02_classification.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law03_change_procedure.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law04_criticality.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law05_book_of_life.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law06_architecture.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law07_pattern_library.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law08_pattern_selection.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law09_no_ornamental_patterns.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law10_layer_separation.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law11_amendments.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law12_pattern_implementation.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law13_normative_expansion.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law14_cybersecurity.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law15_user_experience.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law16_text_integrity.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law17_justified_complexity.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law18_cognitive_sovereignty.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law19_integrity_of_references.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law20_agentic_coordination.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law21_evaluation_driven_development.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law22_code_provenance.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "/",
-      "resolution": "GitHub Pages root path"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://www.linkedin.com/in/njfw23/",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://orcid.org/0009-0006-5209-4477",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/CITATION.cff",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/discussions",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/LICENSE",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "/",
-      "resolution": "GitHub Pages root path"
-    },
-    {
-      "consumer": "codigo-canonico-engenharia-ia/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://njfw50.github.io/canonical-engineering-ai/",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://njfw50.github.io/codigo-canonico-engenharia-ia/",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://njfw50.github.io/canonical-engineering-ai/",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://njfw50.github.io/codigo-canonico-engenharia-ia/",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "/canonical.css",
-      "resolution": "GitHub Pages root path"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "#main",
-      "resolution": "local HTML id"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "/",
-      "resolution": "GitHub Pages root path"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "#projeto",
-      "resolution": "local HTML id"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "#leitura",
-      "resolution": "local HTML id"
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "canonical-engineering-ai/index.html",
       "provider": "#canones",
-      "resolution": "local HTML id"
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "canonical-engineering-ai/index.html",
-      "provider": "#autoria",
-      "resolution": "local HTML id"
+      "provider": "#compartilhar",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "canonical-engineering-ai/index.html",
-      "provider": "/codigo-canonico-engenharia-ia/",
-      "resolution": "GitHub Pages root path"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "/canonical-engineering-ai/",
-      "resolution": "GitHub Pages root path"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "#autoria",
-      "resolution": "local HTML id"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai",
-      "resolution": "explicit HTTPS URL"
+      "provider": "#experimento",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "canonical-engineering-ai/index.html",
       "provider": "#leitura",
-      "resolution": "local HTML id"
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law03_change_procedure.md",
-      "resolution": "explicit HTTPS URL"
+      "provider": "#main",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law03_change_procedure.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law09_no_ornamental_patterns.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law09_no_ornamental_patterns.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law18_cognitive_sovereignty.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law18_cognitive_sovereignty.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/README.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/tree/main/laws/",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/template/ADA_template.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/CONTRIBUTING.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law10_layer_separation.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law10_layer_separation.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law00_precedence.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law01_authority.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law02_classification.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law03_change_procedure.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law04_criticality.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law05_book_of_life.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law06_architecture.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law07_pattern_library.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law08_pattern_selection.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law09_no_ornamental_patterns.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law10_layer_separation.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law11_amendments.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law12_pattern_implementation.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law13_normative_expansion.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law14_cybersecurity.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law15_user_experience.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law16_text_integrity.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law17_justified_complexity.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law18_cognitive_sovereignty.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law19_integrity_of_references.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law20_agentic_coordination.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law21_evaluation_driven_development.md",
-      "resolution": "explicit HTTPS URL"
-    },
-    {
-      "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law22_code_provenance.md",
-      "resolution": "explicit HTTPS URL"
+      "provider": "#projeto",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "canonical-engineering-ai/index.html",
       "provider": "/",
-      "resolution": "GitHub Pages root path"
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://www.linkedin.com/in/njfw23/",
-      "resolution": "explicit HTTPS URL"
+      "provider": "/assets/canonical/preview-en.png",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://orcid.org/0009-0006-5209-4477",
-      "resolution": "explicit HTTPS URL"
+      "provider": "/assets/canonical/preview-en.png",
+      "type": "src",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/CITATION.cff",
-      "resolution": "explicit HTTPS URL"
+      "provider": "/canonical-engineering-ai/",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/discussions",
-      "resolution": "explicit HTTPS URL"
+      "provider": "/canonical.css",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "canonical-engineering-ai/index.html",
-      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/LICENSE",
-      "resolution": "explicit HTTPS URL"
+      "provider": "/codigo-canonico-engenharia-ia/",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "canonical-engineering-ai/index.html",
-      "provider": "/",
-      "resolution": "GitHub Pages root path"
+      "provider": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230f1b2d'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='system-ui' font-size='36' font-weight='800' fill='%235ee4c3'%3EC%3C/text%3E%3C/svg%3E",
+      "type": "href",
+      "resolution": "inline data URI"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://doi.org/10.5281/zenodo.19804968",
+      "type": "structured-data",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://doi.org/10.5281/zenodo.21006705",
+      "type": "href",
+      "resolution": "explicit external URL contract; availability can change"
     },
     {
       "consumer": "canonical-engineering-ai/index.html",
       "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai",
-      "resolution": "explicit HTTPS URL"
+      "type": "href",
+      "resolution": "explicit external URL contract; availability can change"
     },
     {
-      "consumer": "index.html",
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai",
+      "type": "structured-data",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai#project",
+      "type": "structured-data",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/CITATION.cff",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/CONTRIBUTING.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/LICENSE",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/LICENSE",
+      "type": "structured-data",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/README.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/docs/EVIDENCE.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/docs/SHARE.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/examples/checkout/ADA.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law00_precedence.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law01_authority.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law02_classification.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law03_change_procedure.md",
+      "type": "cite",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law03_change_procedure.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law04_criticality.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law05_book_of_life.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law06_architecture.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law07_pattern_library.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law08_pattern_selection.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law09_no_ornamental_patterns.md",
+      "type": "cite",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law09_no_ornamental_patterns.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law10_layer_separation.md",
+      "type": "cite",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law10_layer_separation.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law11_amendments.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law12_pattern_implementation.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law13_normative_expansion.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law14_cybersecurity.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law15_user_experience.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law16_text_integrity.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law17_justified_complexity.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law18_cognitive_sovereignty.md",
+      "type": "cite",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law18_cognitive_sovereignty.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law19_integrity_of_references.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law20_agentic_coordination.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law21_evaluation_driven_development.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law22_code_provenance.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/template/ADA_template.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/discussions",
+      "type": "href",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/tree/main/examples/checkout",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/tree/main/laws/",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
       "provider": "https://njfw50.github.io/",
-      "resolution": "explicit HTTPS URL"
+      "type": "structured-data",
+      "resolution": "verified local or coordinated repository target"
     },
     {
-      "consumer": "index.html",
-      "provider": "https://fonts.googleapis.com",
-      "resolution": "explicit HTTPS URL"
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://njfw50.github.io/assets/canonical/preview-en.png",
+      "type": "metadata",
+      "resolution": "verified local or coordinated repository target"
     },
     {
-      "consumer": "index.html",
-      "provider": "https://fonts.gstatic.com",
-      "resolution": "explicit HTTPS URL"
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://njfw50.github.io/assets/canonical/preview-en.png",
+      "type": "structured-data",
+      "resolution": "verified local or coordinated repository target"
     },
     {
-      "consumer": "index.html",
-      "provider": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap",
-      "resolution": "explicit HTTPS URL"
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://njfw50.github.io/canonical-engineering-ai/",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
     },
     {
-      "consumer": "index.html",
-      "provider": "styles.css",
-      "resolution": "relative to consumer path"
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://njfw50.github.io/canonical-engineering-ai/",
+      "type": "metadata",
+      "resolution": "verified local or coordinated repository target"
     },
     {
-      "consumer": "index.html",
-      "provider": "#main-content",
-      "resolution": "local HTML id"
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://njfw50.github.io/canonical-engineering-ai/",
+      "type": "structured-data",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://njfw50.github.io/canonical-engineering-ai/#page",
+      "type": "structured-data",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://njfw50.github.io/codigo-canonico-engenharia-ia/",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://orcid.org/0009-0006-5209-4477",
+      "type": "href",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://orcid.org/0009-0006-5209-4477",
+      "type": "structured-data",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://schema.org",
+      "type": "structured-data",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://wa.me/?text=Your%20AI-generated%20code%20works.%20Can%20you%20explain%20the%20decision%20behind%20it%3F%20Explore%20Michel%20Silva%20de%20Souza%E2%80%99s%20Canonical%20Protocol%20of%20Engineering%20%26%20AI%20and%20try%20a%20practical%20code%20review.%20https%3A%2F%2Fnjfw50.github.io%2Fcanonical-engineering-ai%2F",
+      "type": "href",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://www.linkedin.com/in/njfw23/",
+      "type": "href",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fnjfw50.github.io%2Fcanonical-engineering-ai%2F",
+      "type": "href",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "#autoria",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "#canones",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "#compartilhar",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "#experimento",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "#leitura",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "#main",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "#projeto",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "/",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "/assets/canonical/preview-pt.png",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "/assets/canonical/preview-pt.png",
+      "type": "src",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "/canonical-engineering-ai/",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "/canonical.css",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "/codigo-canonico-engenharia-ia/",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230f1b2d'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='system-ui' font-size='36' font-weight='800' fill='%235ee4c3'%3EC%3C/text%3E%3C/svg%3E",
+      "type": "href",
+      "resolution": "inline data URI"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://doi.org/10.5281/zenodo.19804968",
+      "type": "structured-data",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://doi.org/10.5281/zenodo.21006705",
+      "type": "href",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai",
+      "type": "href",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai",
+      "type": "structured-data",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai#project",
+      "type": "structured-data",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/CITATION.cff",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/CONTRIBUTING.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/LICENSE",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/LICENSE",
+      "type": "structured-data",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/README.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/docs/EVIDENCE.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/docs/SHARE.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/examples/checkout/ADA.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law00_precedence.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law01_authority.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law02_classification.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law03_change_procedure.md",
+      "type": "cite",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law03_change_procedure.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law04_criticality.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law05_book_of_life.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law06_architecture.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law07_pattern_library.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law08_pattern_selection.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law09_no_ornamental_patterns.md",
+      "type": "cite",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law09_no_ornamental_patterns.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law10_layer_separation.md",
+      "type": "cite",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law10_layer_separation.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law11_amendments.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law12_pattern_implementation.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law13_normative_expansion.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law14_cybersecurity.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law15_user_experience.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law16_text_integrity.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law17_justified_complexity.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law18_cognitive_sovereignty.md",
+      "type": "cite",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law18_cognitive_sovereignty.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law19_integrity_of_references.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law20_agentic_coordination.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law21_evaluation_driven_development.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law22_code_provenance.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/template/ADA_template.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/discussions",
+      "type": "href",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/tree/main/examples/checkout",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/tree/main/laws/",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://njfw50.github.io/",
+      "type": "structured-data",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://njfw50.github.io/assets/canonical/preview-pt.png",
+      "type": "metadata",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://njfw50.github.io/assets/canonical/preview-pt.png",
+      "type": "structured-data",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://njfw50.github.io/canonical-engineering-ai/",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://njfw50.github.io/codigo-canonico-engenharia-ia/",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://njfw50.github.io/codigo-canonico-engenharia-ia/",
+      "type": "metadata",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://njfw50.github.io/codigo-canonico-engenharia-ia/",
+      "type": "structured-data",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://njfw50.github.io/codigo-canonico-engenharia-ia/#page",
+      "type": "structured-data",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://orcid.org/0009-0006-5209-4477",
+      "type": "href",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://orcid.org/0009-0006-5209-4477",
+      "type": "structured-data",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://schema.org",
+      "type": "structured-data",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://wa.me/?text=Seu%20c%C3%B3digo%20gerado%20por%20IA%20funciona.%20Voc%C3%AA%20consegue%20explicar%20a%20decis%C3%A3o%20por%20tr%C3%A1s%20dele%3F%20Conhe%C3%A7a%20o%20C%C3%B3digo%20Can%C3%B4nico%20de%20Engenharia%20%26%20IA%2C%20de%20Michel%20Silva%20de%20Souza%2C%20e%20experimente%20uma%20revis%C3%A3o%20pr%C3%A1tica.%20https%3A%2F%2Fnjfw50.github.io%2Fcodigo-canonico-engenharia-ia%2F",
+      "type": "href",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://www.linkedin.com/in/njfw23/",
+      "type": "href",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fnjfw50.github.io%2Fcodigo-canonico-engenharia-ia%2F",
+      "type": "href",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "docs/visibility/ADA-20261001-001.md",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/issues/7",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
     },
     {
       "consumer": "index.html",
       "provider": "#about",
-      "resolution": "local HTML id"
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "index.html",
+      "provider": "#contact",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "index.html",
       "provider": "#experience",
-      "resolution": "local HTML id"
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "index.html",
+      "provider": "#main-content",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "index.html",
       "provider": "#skills",
-      "resolution": "local HTML id"
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "index.html",
       "provider": "/canonical-engineering-ai/",
-      "resolution": "GitHub Pages root path"
-    },
-    {
-      "consumer": "index.html",
-      "provider": "#contact",
-      "resolution": "local HTML id"
-    },
-    {
-      "consumer": "index.html",
-      "provider": "photo.jpg",
-      "resolution": "relative to consumer path"
-    },
-    {
-      "consumer": "index.html",
-      "provider": "#contact",
-      "resolution": "local HTML id"
-    },
-    {
-      "consumer": "index.html",
-      "provider": "#experience",
-      "resolution": "local HTML id"
-    },
-    {
-      "consumer": "index.html",
-      "provider": "/canonical-engineering-ai/",
-      "resolution": "GitHub Pages root path"
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "index.html",
       "provider": "/codigo-canonico-engenharia-ia/",
-      "resolution": "GitHub Pages root path"
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "index.html",
-      "provider": "mailto:michelstravelus@gmail.com",
-      "resolution": "mail client"
+      "provider": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' font-family='Syne' font-weight='800' fill='%231abc9c'>M</text></svg>",
+      "type": "href",
+      "resolution": "inline data URI"
     },
     {
       "consumer": "index.html",
-      "provider": "https://linkedin.com/in/njfw23",
-      "resolution": "explicit HTTPS URL"
+      "provider": "https://fonts.googleapis.com",
+      "type": "href",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "index.html",
+      "provider": "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap",
+      "type": "href",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "index.html",
+      "provider": "https://fonts.gstatic.com",
+      "type": "href",
+      "resolution": "explicit external URL contract; availability can change"
     },
     {
       "consumer": "index.html",
       "provider": "https://github.com/njfw50",
-      "resolution": "explicit HTTPS URL"
+      "type": "href",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "index.html",
+      "provider": "https://github.com/njfw50",
+      "type": "structured-data",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "index.html",
+      "provider": "https://linkedin.com/in/njfw23",
+      "type": "href",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "index.html",
+      "provider": "https://linkedin.com/in/njfw23",
+      "type": "structured-data",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "index.html",
+      "provider": "https://njfw50.github.io/",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "index.html",
+      "provider": "https://njfw50.github.io/",
+      "type": "metadata",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "index.html",
+      "provider": "https://njfw50.github.io/",
+      "type": "structured-data",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "index.html",
+      "provider": "https://njfw50.github.io/photo.jpg",
+      "type": "metadata",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "index.html",
+      "provider": "https://njfw50.github.io/photo.jpg",
+      "type": "structured-data",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "index.html",
+      "provider": "https://schema.org",
+      "type": "structured-data",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "index.html",
+      "provider": "mailto:michelstravelus@gmail.com",
+      "type": "href",
+      "resolution": "mail client contract"
+    },
+    {
+      "consumer": "index.html",
+      "provider": "photo.jpg",
+      "type": "src",
+      "resolution": "verified local or coordinated repository target"
     },
     {
       "consumer": "index.html",
       "provider": "script.js",
-      "resolution": "relative to consumer path"
+      "type": "src",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "index.html",
+      "provider": "styles.css",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "llms.txt",
+      "provider": "https://doi.org/10.5281/zenodo.19804968",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "llms.txt",
+      "provider": "https://doi.org/10.5281/zenodo.21006705",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "llms.txt",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "llms.txt",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/CITATION.cff",
+      "type": "explicit-url",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "llms.txt",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/CONTRIBUTING.md",
+      "type": "explicit-url",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "llms.txt",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/README.md",
+      "type": "explicit-url",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "llms.txt",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/WHITEPAPER.md",
+      "type": "explicit-url",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "llms.txt",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/docs/EVIDENCE.md",
+      "type": "explicit-url",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "llms.txt",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/examples/checkout/ADA.md",
+      "type": "explicit-url",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "llms.txt",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/template/ADA_template.md",
+      "type": "explicit-url",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "llms.txt",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/tree/main/examples/checkout",
+      "type": "explicit-url",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "llms.txt",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/tree/main/laws",
+      "type": "explicit-url",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "llms.txt",
+      "provider": "https://njfw50.github.io/",
+      "type": "explicit-url",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "llms.txt",
+      "provider": "https://njfw50.github.io/canonical-engineering-ai/",
+      "type": "explicit-url",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "llms.txt",
+      "provider": "https://njfw50.github.io/codigo-canonico-engenharia-ia/",
+      "type": "explicit-url",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "llms.txt",
+      "provider": "https://orcid.org/0009-0006-5209-4477",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "llms.txt",
+      "provider": "https://www.linkedin.com/in/njfw23/",
+      "type": "explicit-url",
+      "resolution": "explicit external URL contract; availability can change"
+    },
+    {
+      "consumer": "sitemap_main.xml",
+      "provider": "https://njfw50.github.io/",
+      "type": "sitemap",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "sitemap_main.xml",
+      "provider": "https://njfw50.github.io/canonical-engineering-ai/",
+      "type": "sitemap",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "sitemap_main.xml",
+      "provider": "https://njfw50.github.io/codigo-canonico-engenharia-ia/",
+      "type": "sitemap",
+      "resolution": "verified local or coordinated repository target"
     }
   ]
 }

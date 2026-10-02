@@ -1,0 +1,20 @@
+{
+  "normative_class": "C",
+  "date": "2026-10-01",
+  "algorithm": "SHA-256",
+  "scope": "Exact bytes of changed publication files, including binary images. This manifest is excluded to avoid self-reference. Historical manifests retain their original commit scope.",
+  "files": {
+    "assets/canonical/preview-en.png": "6a2a3e6f8803259e2e2e549d531ec6b71db97e3371a356a03309726edaf03dc9",
+    "assets/canonical/preview-en.svg": "c78950cec63999e83ccb5102b4c77f8ec2f8891ef5d996fb64c4cfbef78d9b24",
+    "assets/canonical/preview-pt.png": "04b4b0f0efe9ba430c14a64fa33e8e4a16fa8ca52f81b296198d7569b6c2af4b",
+    "assets/canonical/preview-pt.svg": "5bd16abddfd50204efd63236f3adedec68ba0d742e1745c3cd715d6806868079",
+    "canonical-dependencies.json": "dc4c922a3831c69d8fb4e3618eacdb3166e3f8f01706e0df2b90bb4013774c92",
+    "canonical-engineering-ai/index.html": "b4cbfd2be26f5c539e5644e36e3012b0df3e39747fd38a8ff067788e3bc6ceaa",
+    "canonical.css": "32188909ba1334366fe90a1870810ba2659b58bf40423bab5b6e12bb01789b9e",
+    "codigo-canonico-engenharia-ia/index.html": "c3a7436076ba145eceb9d8e2e8974e693e6ed0955327bec521088f1b2bbb4698",
+    "docs/visibility/ADA-20261001-001.md": "3a684ec517d22c195e0827ee0e11f7a3c18f3a91fefe39b22d094fa709fe7677",
+    "docs/visibility/validation-20261001.md": "2bcff035b1c3dfa5b00279f05aa386667d2280feb6d65d508cbac5768252f56e",
+    "llms.txt": "6af183e63306a7c515453bca216f7834e7f6cd9d5a0de21f106aaf92d98dafca",
+    "sitemap_main.xml": "04c03e015d31f4e1b6955763a91552a05dede482b0cc341a91161bec422a3ac9"
+  }
+}
