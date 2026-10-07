@@ -330,6 +330,12 @@
     },
     {
       "consumer": "canonical-engineering-ai/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law23_natural_error_containment.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "canonical-engineering-ai/index.html",
       "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/template/ADA_template.md",
       "type": "href",
       "resolution": "verified local or coordinated repository target"
@@ -757,6 +763,12 @@
     {
       "consumer": "codigo-canonico-engenharia-ia/index.html",
       "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law22_code_provenance.md",
+      "type": "href",
+      "resolution": "verified local or coordinated repository target"
+    },
+    {
+      "consumer": "codigo-canonico-engenharia-ia/index.html",
+      "provider": "https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law23_natural_error_containment.md",
       "type": "href",
       "resolution": "verified local or coordinated repository target"
     },
