@@ -11,15 +11,16 @@
 - License: Apache License 2.0
 
 ## What the project addresses
-The Canonical Protocol is a software-governance framework for AI-assisted engineering. It focuses on architectural discipline, explicit change procedures, separation of layers, justified complexity, cognitive sovereignty, AI-agent coordination, evaluation-driven development, code provenance, traceability, and natural-error consequence containment.
+The Canonical Protocol is a software-governance framework for AI-assisted engineering. It focuses on architectural discipline, explicit change procedures, separation of layers, justified complexity, cognitive sovereignty, AI-agent coordination, evaluation-driven development, code provenance, traceability, natural-error consequence containment, and embodied AI/robotics governance for living integrity.
 
 Relevant discovery terms include:
-software governance; AI-assisted software engineering; AI coding governance; agentic coding guardrails; software architecture governance; cognitive debt; cognitive sovereignty; code provenance; evaluation-driven development; natural error containment; consequence validation; AI agents; architectural integrity; software engineering guardrails; vibe coding.
+software governance; AI-assisted software engineering; AI coding governance; agentic coding guardrails; software architecture governance; cognitive debt; cognitive sovereignty; code provenance; evaluation-driven development; natural error containment; consequence validation; embodied AI; robotics safety governance; living integrity; existential freedom; AI agents; architectural integrity; software engineering guardrails; vibe coding.
 
 ## Start here
 - Manifesto and index: https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/README.md
 - Canonical laws: https://github.com/njfw50/codigo-canonico-engenharia-ai/tree/main/laws
 - Canon XXIII (MP 2026/05): https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law23_natural_error_containment.md
+- Canon XXIV (MP 2026/06): https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/laws/law24_embodied_agency_living_integrity.md
 - Whitepaper: https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/WHITEPAPER.md
 - Contribution procedure: https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/CONTRIBUTING.md
 - Decision record template: https://github.com/njfw50/codigo-canonico-engenharia-ai/blob/main/template/ADA_template.md
